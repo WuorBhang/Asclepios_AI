@@ -1,13 +1,13 @@
-name: CI Checks - DISABLED
+# name: CI Checks - DISABLED
 
-on: [push, pull_request, workflow_dispatch]
+# on: [push, pull_request, workflow_dispatch]
 
-jobs:
-  disabled-notice:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Workflow Disabled
-        run: echo "All CI checks are temporarily disabled due to billing issues"
+# jobs:
+#   disabled-notice:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Workflow Disabled
+#         run: echo "All CI checks are temporarily disabled due to billing issues"
 
 
 
